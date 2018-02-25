@@ -1,0 +1,78 @@
+.container {
+  padding-bottom: 50px;
+  width: 1000px;
+  position:relative;
+  padding: 10px 10px 55px 10px;
+  .left {
+    width: 620px;
+    margin-right: 10px;
+  }
+  .right {
+    width: 350px;
+  }
+}
+.content {
+  padding: 30px;
+  color: #27241e;
+  font-weight: bold;
+  line-height: 20px;
+  background: #c8c6ba;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.block, .block h2, .block a {
+  color: #fff;
+}
+.block a {
+  text-decoration: underline;
+}
+.block img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #27241e;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.block {-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.block.brown {
+  border: 1px solid #b5ab9f;
+  background: #7c6a54;
+  background-image: linear-gradient(bottom, rgb(101,85,65) 100%, rgb(133,120,102) 0%);
+  background-image: -o-linear-gradient(bottom, rgb(101,85,65) 100%, rgb(133,120,102) 0%);
+  background-image: -moz-linear-gradient(bottom, rgb(101,85,65) 100%, rgb(133,120,102) 0%);
+  background-image: -webkit-linear-gradient(bottom, rgb(101,85,65) 100%, rgb(133,120,102) 0%);
+  background-image: -ms-linear-gradient(bottom, rgb(101,85,65) 100%, rgb(133,120,102) 0%);
+
+  background-image: -webkit-gradient(
+                  linear,
+                  left bottom,
+                  left top,
+                  color-stop(1, rgb(101,85,65)),
+                  color-stop(0, rgb(133,120,102))
+  );
+}
+.block.blue {
+  border: 1px solid #c3d5d1;
+  background: #6eaba3;
+  background-image: linear-gradient(bottom, rgb(92,149,140) 100%, rgb(124,196,185) 0%);
+  background-image: -o-linear-gradient(bottom, rgb(92,149,140) 100%, rgb(124,196,185) 0%);
+  background-image: -moz-linear-gradient(bottom, rgb(92,149,140) 100%, rgb(124,196,185) 0%);
+  background-image: -webkit-linear-gradient(bottom, rgb(92,149,140) 100%, rgb(124,196,185) 0%);
+  background-image: -ms-linear-gradient(bottom, rgb(92,149,140) 100%, rgb(124,196,185) 0%);
+
+  background-image: -webkit-gradient(
+                  linear,
+                  left bottom,
+                  left top,
+                  color-stop(1, rgb(92,149,140)),
+                  color-stop(0, rgb(124,196,185))
+  );
+}
